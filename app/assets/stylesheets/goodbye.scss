@@ -1,3 +1,82 @@
 // Place all the styles related to the goodbye controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body, h1, h2, h3, h4, h5, h6, p, img, table, tr, td, footer, header {
+  margin: 20px;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-size: large;
+}
+
+body {
+  line-height: 1;
+  background-color: white;
+  text-align: justify;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+  width: 60%;
+}
+
+
+article,
+footer,
+header,
+nav {
+  display: block;
+}
+
+body {
+  margin: 45px 15px 0;
+  color: #555;
+  font: normal 1em/150% Geneva, Helvetica, sans-serif, Verdana;
+  letter-spacing: 1px;
+  max-width: 1100px;
+  position: relative;
+}
+
+
+a {
+  text-decoration: darkslategray;
+  color: #265258;
+  border-bottom: 1px dashed;
+  font-size: small;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #779EC4;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  font-size: small;
+  align-items: last-baseline;
+}
+
+
+table {
+  margin: 25px;
+  width: 66%;
+}
+
+td {
+  width: 33%;
+}
